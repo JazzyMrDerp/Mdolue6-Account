@@ -16,5 +16,8 @@ public class Main {
         actC.withdraw(2000);
         System.out.println(actC.toString());
 
+
+        Account actL = new LoanAccount("Loan", 3000, .3);
+
     }
 }
