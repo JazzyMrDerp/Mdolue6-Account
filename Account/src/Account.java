@@ -13,6 +13,7 @@ public  abstract class Account {
     public abstract boolean withdraw(double amount);
 
     public abstract boolean deposit(double amount);
+    public abstract void calculateInterest();
 
     @Override
     public String toString() {

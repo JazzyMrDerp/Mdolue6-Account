@@ -28,6 +28,11 @@ public class CreditAccount extends Account {
     }
 
     @Override
+    public void calculateInterest() {
+
+    }
+
+    @Override
     public boolean withdraw(double _amount) {
         if((this.limit- this.balance) >= _amount){
             this.balance = this.balance + _amount;

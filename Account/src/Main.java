@@ -18,6 +18,12 @@ public class Main {
 
 
         Account actL = new LoanAccount("Loan", 3000, .3);
+        actL.deposit(300);
+        System.out.println(actL.toString());
+        actL.withdraw(400);
+        System.out.println(actL.toString());
+        actL.calculateInterest();
+        System.out.println(actL.toString());
 
     }
 }

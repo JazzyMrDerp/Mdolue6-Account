@@ -29,4 +29,9 @@ public class DebitAccount extends Account {
         }
         return true;
     }
+
+    @Override
+    public void calculateInterest() {
+
+    }
 }
